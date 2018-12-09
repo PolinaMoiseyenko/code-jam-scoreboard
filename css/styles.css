@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.scoretable {
+    margin: 20px;
+}
+table {
+    border: 2px solid #949494;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+td {
+    padding: 5px;
+    width: 10px;
+    border-right: 1px solid #949494;
+    text-align: right;
+}
+tr td:nth-child(1) {
+    text-align: left;
+}
+tr:nth-child(1) {
+    border: 2px solid #949494;
+    color: #ffffff;
+    background-color: #6d879c;
+}
+.chb {
+    margin-left: 45%;
+}
+
